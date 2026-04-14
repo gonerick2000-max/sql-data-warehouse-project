@@ -28,6 +28,7 @@ Implements a star schema.
 * `gold.dim_products`
 #### Fact Table:
 * `gold.fact_sales`
+
 Key features:
     - Integration of CRM and ERP datasets
     - Creation of surrogate keys for dimensions
