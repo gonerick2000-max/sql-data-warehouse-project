@@ -1,6 +1,6 @@
 # SQL DataWareHouse Project
 
-## Overview
+## 1️⃣ Overview
 
 This project implements a Data Warehouse in SQL Server following the Medallion Architecture (Bronze, Silver, Gold).
 
@@ -8,7 +8,7 @@ The pipeline ingests raw data from CRM and ERP systems, transforms it into struc
 
 ---
 
-## Medallion Architecture
+## 2️⃣ Medallion Architecture
 ### Bronze Layer
 - Raw Data from the source systems (CRM and ERP) is stored
 - No transformations are applied
@@ -35,7 +35,7 @@ Key features:
 - Business-friendly column naming
 - Handling of temporal product data (validity ranges)
 ---
-## ETL Process
+## 3️⃣ ETL Process
 
 ### 1. Create database and schemas
 
@@ -69,7 +69,7 @@ Run the gold layer script (`load_gold.sql`) to create the views:
 
 ---
 
-## Data Analysis
+## 4️⃣ Data Analysis
 Example of business insights generated in this project:
 ### 📈 Time-Based Analysis
 We study:
