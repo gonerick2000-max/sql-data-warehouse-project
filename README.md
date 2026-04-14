@@ -67,6 +67,8 @@ Run the gold layer script (`load_gold.sql`) to create the views:
 * `dim_products`
 * `fact_sales`
 
+---
+
 ## Data Analysis
 Example of business insights generated in this project:
 ### 📈 Time-Based Analysis
