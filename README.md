@@ -13,10 +13,12 @@ The pipeline ingests raw data from CRM and ERP systems, transforms it into struc
 ### Silver Layer
 ### Gold Layer
 
+---
+
 ## Data Analysis
 ![Gráficas](scripts/4_DataAnalysis/plt_merge_plts.png)
 
-
+---
 
 ## Greetings
 I would like to thanks to the Youtube channel DataWithBaraa, which I used to learn about SQL language and get some knowledge about Data Engeneering. A great part of the material presented in this project is extracted from the project course of the channel.
