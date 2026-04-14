@@ -75,7 +75,7 @@ Examples of business insights generated in this project:
 We analyze:
 * Order volume evolution over time
 
-As a result of this analysis, we can observethat sales hystorycan be divided in two distinct periods where monthly order trends differ significantly.
+As a result of this analysis, we can observe that sales history can be divided in two distinct periods where monthly order trends differ significantly.
 
 ### 🛍️ Product Performance
 We analyze:
