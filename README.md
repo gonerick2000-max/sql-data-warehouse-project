@@ -22,7 +22,7 @@ The purpose of this layer is to clean and standardize the data from the sources.
 - Basic business logic and enrichment
 
 ### Gold Layer
-Implements a star schema.
+Implements a **star schema**.
 #### Dimensions
 * `gold.dim_customers`
 * `gold.dim_products`
