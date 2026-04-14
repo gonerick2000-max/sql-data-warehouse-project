@@ -57,7 +57,7 @@ EXEC silver.load_val;
 
 ### 4. Create analytical views (Gold)
 
-Run the gold layer script to create:
+Run the gold layer script (`load_gold.sql`) to create:
 
 * `dim_customers`
 * `dim_products`
