@@ -35,6 +35,33 @@ Key features:
 - Business-friendly column naming
 - Handling of temporal product data (validity ranges)
 ---
+## ETL Process
+
+### 1. Create database and schemas
+
+```sql
+EXEC bronze.create_tables;
+```
+
+### 2. Load raw data (Bronze)
+
+```sql
+EXEC bronze.load_val;
+```
+
+### 3. Transform data (Silver)
+
+```sql
+EXEC silver.load_val;
+```
+
+### 4. Create analytical views (Gold)
+
+Run the gold layer script to create:
+
+* `dim_customers`
+* `dim_products`
+* `fact_sales`
 
 ## Data Analysis
 ![Gráficas](scripts/4_DataAnalysis/plt_merge_plts.png)
