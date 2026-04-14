@@ -119,5 +119,5 @@ Based on the Activity duration and the Total Sales of each customer we can deter
 
 ---
 
-## Greetings
-I would like to thanks to Baraa, a Data Engineer with over 17 years experience, who created a Youtube channel named Data With Baraa, which I used to learn about SQL language and get some knowledge about Data Engeneering. A great part of the material presented in this project is extracted from the project course of the channel.
+## ACKNOWLEDGMENT
+I would like to thanks to Baraa, a Data Engineer with over 17 years experience, who created a Youtube channel named Data With Baraa, which I used to learn about SQL language and get some knowledge about Data Engeneering. Most of the material presented in this project is extracted from the course of the channel.
