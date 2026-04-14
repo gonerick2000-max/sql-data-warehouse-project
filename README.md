@@ -68,11 +68,11 @@ Run the gold layer script (`load_gold.sql`) to create the views:
 * `fact_sales`
 
 ## Data Analysis
+Example of business insights generated in this project:
 ### 📈 Time-Based Analysis
 
 * Monthly order trends
 * Order volume evolution over time
-![Gráficas](scripts/4_DataAnalysis/plt_merge_plts.png)
 
 ### 🛍️ Product Performance
 
@@ -91,6 +91,7 @@ Run the gold layer script (`load_gold.sql`) to create the views:
   * Total sales
   * Activity duration
 
+![Gráficas](scripts/4_DataAnalysis/plt_merge_plts.png)
 
 ---
 
