@@ -71,25 +71,22 @@ Run the gold layer script (`load_gold.sql`) to create the views:
 Example of business insights generated in this project:
 ### 📈 Time-Based Analysis
 
-* Monthly order trends
 * Order volume evolution over time
+
+As a result of this analysis we could determine could separate the hystory of sales in two periods of time in which the monthly order trends are clearly different.
 
 ### 🛍️ Product Performance
 
 * Sales contribution by category and subcategory
-* Identification of top-performing product lines
+  
+With this analysis we identify the top-performing product categories.
 
-### 👤 Customer Segmentation
+### 👤 Customer Classification
 
-* Customers classified as:
-
-  * **VIP**
-  * **Silver**
-  * **New Customer**
-* Based on:
-
-  * Total sales
-  * Activity duration
+Based on the Total Sales and the Activity duration of each customer we can determine the type of customers of the business:
+  * **VIP**: more than 2 years of activity and more than 5000$ in purchases
+  * **Silver**: less than 2 years of activity and more than 5000$ in purchases
+  * **New Customer**: less than 2 years of activity and less than 5000$ in purchases
 
 ![Gráficas](scripts/4_DataAnalysis/plt_merge_plts.png)
 
