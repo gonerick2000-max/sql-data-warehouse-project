@@ -12,13 +12,15 @@ The pipeline ingests raw data from CRM and ERP systems, transforms it into struc
 ### Bronze Layer
 - Raw Data from the source systems (CRM and ERP) is stored
 - No transformations are applied
+
 ### Silver Layer
 The purpose of this layer is to clean and standardize the data from the sources. For that, in this layer the following transformations are applied: 
 - Data cleansing (TRIM, NULL handling, invalid value filtering)
 - Data deduplication using window functions (ROW_NUMBER)
 - Standardization of categorical values
 - Data type corrections and formatting
-- Basic business logic and enrichment 
+- Basic business logic and enrichment
+
 ### Gold Layer
 Implements a star schema.
 #### Dimensions
@@ -26,7 +28,6 @@ Implements a star schema.
 * `gold.dim_products`
 #### Fact Table:
 * `gold.fact_sales`
-
 Key features:
     - Integration of CRM and ERP datasets
     - Creation of surrogate keys for dimensions
