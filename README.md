@@ -83,7 +83,7 @@ With this analysis we identify the top-performing product categories.
 
 ### 👤 Customer Classification
 
-Based on the Total Sales and the Activity duration of each customer we can determine the type of customers of the business:
+Based on the Activity duration and the Total Sales of each customer we can determine the type of customers of the business:
   * **VIP**: more than 2 years of activity and more than 5000$ in purchases
   * **Silver**: less than 2 years of activity and more than 5000$ in purchases
   * **New Customer**: less than 2 years of activity and less than 5000$ in purchases
