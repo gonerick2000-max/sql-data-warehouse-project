@@ -1,4 +1,4 @@
-# SQL DataWareHouse Project
+# SQL Data WareHouse Project
 
 ## 1️⃣ Overview
 
@@ -10,11 +10,11 @@ The pipeline ingests raw data from CRM and ERP systems, transforms it into struc
 
 ## 2️⃣ Medallion Architecture
 ### Bronze Layer
-- Raw Data from the source systems (CRM and ERP) is stored
+- Raw Data from source systems (CRM and ERP) is stored
 - No transformations are applied
 
 ### Silver Layer
-The purpose of this layer is to clean and standardize the data from the sources. To achieve that purpose, the following transformations are applied: 
+The purpose of this layer is to clean and standardize the data from the sources. To achieve this, the following transformations are applied: 
 - Data cleansing (TRIM, NULL handling, invalid value filtering)
 - Data deduplication using window functions (ROW_NUMBER)
 - Standardization of categorical values
@@ -49,7 +49,7 @@ EXEC bronze.create_tables;
 EXEC bronze.load_val;
 ```
 Key features: 
-- Truncation and bulk insert methods are used for the loading of the data
+- Data is loaded using TRUNCATE and BULK INSERT methods
 
 ### 3. Transform data (Silver)
 
@@ -57,7 +57,7 @@ Key features:
 EXEC silver.load_val;
 ```
 Key features: 
-- Data is stored using the truncation method
+- Tables are truncated before storing the transformed data.
 
 ### 4. Create analytical views (Gold)
 
@@ -70,22 +70,22 @@ Run the gold layer script (`load_gold.sql`) to create the views:
 ---
 
 ## 4️⃣ Data Analysis
-Example of business insights generated in this project:
+Examples of business insights generated in this project:
 ### 📈 Time-Based Analysis
-We study:
+We analyze:
 * Order volume evolution over time
 
-As a result of this analysis we could determine could separate the hystory of sales in two periods of time in which the monthly order trends are clearly different.
+As a result of this analysis, we can observethat sales hystorycan be divided in two distinct periods where monthly order trends differ significantly.
 
 ### 🛍️ Product Performance
-We study:
+We analyze:
 * Sales contribution by category and subcategory
   
-With this analysis we identify the top-performing product categories.
+This analysis helps identify the top-performing product categories.
 
 ### 👤 Customer Classification
 
-Based on the Activity duration and the Total Sales of each customer we can determine the type of customers of the business:
+Based on the activity duration and the total Sales per customer, we define customer segments:
   * **VIP**: more than 2 years of activity and more than 5000$ in purchases
   * **Silver**: less than 2 years of activity and more than 5000$ in purchases
   * **New Customer**: less than 2 years of activity and less than 5000$ in purchases
@@ -119,5 +119,7 @@ Based on the Activity duration and the Total Sales of each customer we can deter
 
 ---
 
-## ACKNOWLEDGMENT
-I would like to thanks to Baraa, a Data Engineer with over 17 years experience, who created a Youtube channel named Data With Baraa, which I used to learn about SQL language and get some knowledge about Data Engeneering. Most of the material presented in this project is extracted from the course of the channel.
+## 🙏 ACKNOWLEDGMENTS
+I would like to thank Baraa, a Data Engineer with over 17 years experience, who created a Youtube channel called Data With Baraa, which I used to learn SQL and gain foundational knowledge in Data Engeneering.
+
+Most of the material presented in this project is based on content from his channel.
