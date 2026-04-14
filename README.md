@@ -48,16 +48,20 @@ EXEC bronze.create_tables;
 ```sql
 EXEC bronze.load_val;
 ```
+Key features: 
+- Truncation and bulk insert methods are used for the loading of the data
 
 ### 3. Transform data (Silver)
 
 ```sql
 EXEC silver.load_val;
 ```
+Key features: 
+- Data is stored using the truncation method
 
 ### 4. Create analytical views (Gold)
 
-Run the gold layer script (`load_gold.sql`) to create:
+Run the gold layer script (`load_gold.sql`) to create the views:
 
 * `dim_customers`
 * `dim_products`
