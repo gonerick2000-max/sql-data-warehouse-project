@@ -1,4 +1,4 @@
-# sql-data-warehouse-project
+# SQL DataWareHouse Project
 
 ## Overview
 
@@ -8,6 +8,12 @@ The pipeline ingests raw data from CRM and ERP systems, transforms it into struc
 
 ---
 
+## Medallion Architecture
+### Bronze Layer
+### Silver Layer
+### Gold Layer
+
+## Data Analysis
 ![Gráficas](scripts/4_DataAnalysis/plt_merge_plts.png)
 
 
