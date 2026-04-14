@@ -10,10 +10,10 @@ The pipeline ingests raw data from CRM and ERP systems, transforms it into struc
 
 ## Medallion Architecture
 ### Bronze Layer
-- Raw Data from the source systems is stored
+- Raw Data from the source systems (CRM and ERP) is stored
 - No transformations are applied
 ### Silver Layer
-Load data from the bronze layer and apply the following transformations:
+The purpose of this layer is to clean and standardize the data from the sources. For that, in this layer the following transformations are applied: 
 - Data cleansing (TRIM, NULL handling, invalid value filtering)
 - Data deduplication using window functions (ROW_NUMBER)
 - Standardization of categorical values (e.g., gender, status)
