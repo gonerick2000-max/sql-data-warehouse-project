@@ -92,6 +92,16 @@ Based on the Activity duration and the Total Sales of each customer we can deter
 
 ---
 
+## 🚀 Key Learnings
+
+* Implementation of **Medallion Architecture**
+* Data cleaning and transformation techniques
+* Building a **dimensional model (star schema)**
+* Handling temporal data in fact/dimension relationships
+* Writing analytical SQL queries for business insights
+
+---
+
 ## 📂 Project Structure
 
 ```
@@ -100,12 +110,12 @@ Based on the Activity duration and the Total Sales of each customer we can deter
   ├── 1_bronze/ddl_tables.sql
   ├── 1_bronze/load_bronze.sql
   ├── 2_silver/load_silver.sql
-  ├── data_validation_silver.sql
   ├── 3_gold/load_gold.sql
-  ├── sc_ddl_tables.sql
-  └── sc_data_analysis.sql
+  ├── 4_DataAnalysis/sc_ddl_tables.sql
+  └── 4_DataAnalysis/sc_data_analysis.sql
 ```
 
+---
 
 ## Greetings
 I would like to thanks to Baraa, a Data Engineer with over 17 years experience, who created a Youtube channel named Data With Baraa, which I used to learn about SQL language and get some knowledge about Data Engeneering. A great part of the material presented in this project is extracted from the project course of the channel.
