@@ -7,5 +7,3 @@ The pipeline ingests raw data from CRM and ERP systems, transforms it into struc
 
 ![Gráficas](scripts/4_DataAnalysis/plt_merge_plts.png)
 
-![Gráfico de ventas](scripts/4_DataAnalysis/plt_order_trends.png) ![Category sales](scripts/4_DataAnalysis/plt_category_sales.png)
-![Customer status](scripts/4_DataAnalysis/plt_customer_status.png)
