@@ -94,16 +94,6 @@ Based on the Activity duration and the Total Sales of each customer we can deter
 
 ---
 
-## 🚀 Key Learnings
-
-* Implementation of **Medallion Architecture**
-* Data cleaning and transformation techniques
-* Building a **dimensional model (star schema)**
-* Handling temporal data in fact/dimension relationships
-* Writing analytical SQL queries for business insights
-
----
-
 ## 📂 Project Structure
 
 ```
@@ -116,6 +106,16 @@ Based on the Activity duration and the Total Sales of each customer we can deter
   ├── 4_DataAnalysis/sc_ddl_tables.sql
   └── 4_DataAnalysis/sc_data_analysis.sql
 ```
+
+---
+
+## 🚀 Key Learnings
+
+* Implementation of **Medallion Architecture**
+* Data cleaning and transformation techniques
+* Building a **dimensional model (star schema)**
+* Handling temporal data in fact/dimension relationships
+* Writing analytical SQL queries for business insights
 
 ---
 
