@@ -5,5 +5,7 @@ This project implements a Data Warehouse in SQL Server following the Medallion A
 The pipeline ingests raw data from CRM and ERP systems, transforms it into structured datasets, and exposes it through a dimensional model (star schema) for analytics and reporting.
 
 
+![Gráficas](scripts/4_DataAnalysis/plt_merge_plts.png)
+
 ![Gráfico de ventas](scripts/4_DataAnalysis/plt_order_trends.png) ![Category sales](scripts/4_DataAnalysis/plt_category_sales.png)
 ![Customer status](scripts/4_DataAnalysis/plt_customer_status.png)
