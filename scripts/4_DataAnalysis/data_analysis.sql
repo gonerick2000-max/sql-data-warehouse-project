@@ -101,6 +101,7 @@ GROUP BY Favourite_line
 */
 SELECT 
 	Customer_status,
+	count(*) AS Nr_Customers,
 	CAST(100.0*COUNT(*)/SUM(COUNT(*)) OVER () AS DECIMAL(10,2)) AS Percentage_total
 FROM table_customer_data
 GROUP BY Customer_status;
