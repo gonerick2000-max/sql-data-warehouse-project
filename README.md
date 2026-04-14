@@ -14,7 +14,7 @@ The pipeline ingests raw data from CRM and ERP systems, transforms it into struc
 - No transformations are applied
 
 ### Silver Layer
-The purpose of this layer is to clean and standardize the data from the sources. For that, in this layer the following transformations are applied: 
+The purpose of this layer is to clean and standardize the data from the sources. To achieve that purpose, the following transformations are applied: 
 - Data cleansing (TRIM, NULL handling, invalid value filtering)
 - Data deduplication using window functions (ROW_NUMBER)
 - Standardization of categorical values
@@ -30,10 +30,10 @@ Implements a **star schema**.
 * `gold.fact_sales`
 
 Key features:
-    - Integration of CRM and ERP datasets
-    - Creation of surrogate keys for dimensions
-    - Business-friendly column naming
-    - Handling of temporal product data (validity ranges)
+- Integration of CRM and ERP datasets
+- Creation of surrogate keys for dimensions
+- Business-friendly column naming
+- Handling of temporal product data (validity ranges)
 ---
 
 ## Data Analysis
