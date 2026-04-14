@@ -96,12 +96,12 @@ Based on the Activity duration and the Total Sales of each customer we can deter
 
 ```
 /scripts
-  ├── init_database.sql
-  ├── ddl_tables.sql
-  ├── load_bronze.sql
-  ├── load_silver.sql
+  ├── 1_bronze/init_database.sql
+  ├── 1_bronze/ddl_tables.sql
+  ├── 1_bronze/load_bronze.sql
+  ├── 2_silver/load_silver.sql
   ├── data_validation_silver.sql
-  ├── load_gold.sql
+  ├── 3_gold/load_gold.sql
   ├── sc_ddl_tables.sql
   └── sc_data_analysis.sql
 ```
