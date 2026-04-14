@@ -68,7 +68,29 @@ Run the gold layer script (`load_gold.sql`) to create the views:
 * `fact_sales`
 
 ## Data Analysis
+### 📈 Time-Based Analysis
+
+* Monthly order trends
+* Order volume evolution over time
 ![Gráficas](scripts/4_DataAnalysis/plt_merge_plts.png)
+
+### 🛍️ Product Performance
+
+* Sales contribution by category and subcategory
+* Identification of top-performing product lines
+
+### 👤 Customer Segmentation
+
+* Customers classified as:
+
+  * **VIP**
+  * **Silver**
+  * **New Customer**
+* Based on:
+
+  * Total sales
+  * Activity duration
+
 
 ---
 
